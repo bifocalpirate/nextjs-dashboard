@@ -49,7 +49,7 @@ export type InvoicesTable = {
   email: string;
   image_url: string;
   date: string;
-  amount?: number;
+  amount: number;
   status: 'pending' | 'paid';
 };
 
