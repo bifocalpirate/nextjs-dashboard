@@ -3,7 +3,7 @@ import { inter } from "@/app/ui/fonts";
 import { Analytics } from "@vercel/analytics/next";
 import { Metadata } from "next";
 
-export const metadate:Metadata ={
+export const metadata:Metadata ={
   title:{
     template:'%s | Acme Dashboard',
     default: 'Acme Dashboard'
